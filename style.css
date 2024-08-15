@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    overflow: hidden;
+  }
+  .box{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 100%;
+    width: 100%;
+  }
+  .left{
+    background-color: rgb(177,165,167);
+    height: 100%;
+    width: 70%;
+  }
+  .menu{
+    padding: 15px;
+  }
+  .menu svg{
+    height: 18px;
+    /* width: 30px; */
+    color: black;
+   
+}
+.head1{
+  letter-spacing: -3px;
+  font-size: 54px;
+  padding-left: 40px;
+  padding-top: 1px;
+  text-transform: uppercase;
+  position: absolute;
+}
+.head2{
+  color: rgb(239,222,116);
+    font-size: 70px;
+    padding-left: 75px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+  .coll{
+      font-size: 40px;
+      padding-left: 100px;
+      padding-top: 40px;
+      text-transform: uppercase;
+      line-height: 42px;
+    
+    
+  }
+  .lorem{
+    font-size: 12px;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+ .end{
+  
+  display: flex;
+  /* justify-content:space-evenly; */
+  gap: 70px;
+  padding-top: 220px;
+  padding-left: 70px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+
+ }
+ .end-items svg{
+  height: 20px;
+ }
+ 
+  .right{
+    background-color: rgb(246,246,246);
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    padding: 35px;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  svg{
+    height: 19px;
+  }
+  .img{
+   height: 100px;
+   width: 100px; 
+   position: absolute;
+   right: 560px;
+   top: 10px;
+  }
